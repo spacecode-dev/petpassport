@@ -1,0 +1,136 @@
+[2020-06-15 18:33:21] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:33:23] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:33:34] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:34:55] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:36:34] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:37:43] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:37:45] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:38:33] local.ERROR: Type of App\PetPassport\Models\Message::$hidden must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$hidden must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:39:36] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:42:16] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:10] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:13] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:14] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:14] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:15] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:15] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:16] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:42] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:49:45] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:51:22] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:11)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:53:43] local.ERROR: Type of App\PetPassport\Models\Message::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:56:19] local.ERROR: Type of App\PetPassport\Models\Message::$hidden must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$hidden must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:56:58] local.ERROR: Type of App\PetPassport\Models\Message::$hidden must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$hidden must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:57:01] local.ERROR: Type of App\PetPassport\Models\Message::$fillable must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$fillable must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:57:28] local.ERROR: Type of App\PetPassport\Models\Message::$fillable must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$fillable must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:57:30] local.ERROR: Type of App\PetPassport\Models\User\UserType::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\User\\UserType::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/User/UserType.php:25)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:58:34] local.ERROR: Type of App\PetPassport\Models\User\User::$casts must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\User\\User::$casts must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/User/User.php:21)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:58:36] local.ERROR: Type of App\PetPassport\Models\User\User::$casts must be array (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\User\\User::$casts must be array (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/User/User.php:21)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:59:45] local.ERROR: Type of Laravel\Passport\PersonalAccessClient::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"userId":1,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of Laravel\\Passport\\PersonalAccessClient::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/vendor/laravel/passport/src/PersonalAccessClient.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 18:59:50] local.ERROR: Type of Laravel\Passport\PersonalAccessClient::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"userId":1,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of Laravel\\Passport\\PersonalAccessClient::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/vendor/laravel/passport/src/PersonalAccessClient.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 19:00:14] local.ERROR: Type of Laravel\Passport\PersonalAccessClient::$table must be string (as in class Illuminate\Database\Eloquent\Model) {"userId":1,"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of Laravel\\Passport\\PersonalAccessClient::$table must be string (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/vendor/laravel/passport/src/PersonalAccessClient.php:32)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 19:13:59] local.ERROR: Type of App\PetPassport\Models\Message::$table must not be defined (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must not be defined (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 19:32:29] local.ERROR: Type of App\PetPassport\Models\Message::$table must not be defined (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$table must not be defined (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 
+[2020-06-15 19:33:03] local.ERROR: Type of App\PetPassport\Models\Message::$hidden must not be defined (as in class Illuminate\Database\Eloquent\Model) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Type of App\\PetPassport\\Models\\Message::$hidden must not be defined (as in class Illuminate\\Database\\Eloquent\\Model) at /var/www/app/PetPassport/Models/Message.php:9)
+[stacktrace]
+#0 {main}
+"} 

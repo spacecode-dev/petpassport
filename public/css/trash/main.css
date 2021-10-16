@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+	line-height: 1.2;
+    font-size: 16px;
+    color: #1e2638;
+    position: relative;
+    font-family: "Open Sans", sans-serif;
+    background: #e9eaee;
+    padding: 0;
+    margin: 0;
+	opacity: 0;
+	overflow: hidden;
+    transition: all 0.2s;
+}
+
+
+body.loaded{
+	opacity: 1 !important;
+	overflow: inherit !important;
+}
+
+h1,h2,h3,h4,h5,h6{
+	margin: 0;
+	padding: 0;
+	font-weight: 400;
+	font-size: inherit;
+}
+
+p{
+	margin: 0;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+img{
+	vertical-align: middle;
+}
+
+a{
+	transition: all 0.2s;
+	color: #4D23B3;
+	text-decoration: none;
+	outline: none;
+	cursor: pointer;
+}
+
+a:hover,
+a:focus{
+	text-decoration: none;
+}
+
+button{
+	transition: all 0.2s;
+}
+
+input,
+textarea,
+button,
+.swiper-button{
+	outline: none;
+	border: 0;
+}
+
+table{
+	border-spacing: 0px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.swiper-container-fade .swiper-slide:not(.swiper-slide-active){
+	opacity: 0 !important;
+}
+
+@media (min-width: 1200px){
+	.container {
+	    max-width: 1170px;
+	}
+}
+
+@media (max-width: 575px){
+	.container {
+	    max-width: 320px;
+	}
+}
+
+hr{
+	border: 0;
+	border-top: 1px solid #E6E9EE;
+	margin: 1.2em 0;
+}
+
+
+.pretty.p-slim .state label:after, .pretty.p-slim .state label:before{
+	transform: scale(1);
+}
+.pretty.p-switch.p-slim .state:before{
+	height: .5em;
+    background: #CBCDD1 !important;
+    top: calc(50% - .3em)
+}
+.pretty.p-switch.p-slim .state label:after{
+	top: calc((0% - (100% - 1.06em)) - 8%);
+	background-color: #fa6251 !important;
+}
+.pretty.p-switch.p-slim input:checked~.state:before{
+	background-color: #CBCDD1 !important;
+	border-color: #CBCDD1;
+}
+.pretty.p-switch input:checked~.state label:after{
+	background-color: #CBCDD1 !important;
+}
+.pretty.p-switch.p-slim label span{
+	position: relative;
+    top: -0.1em;
+}
+
+
+.pretty.p-default input:checked~.state label:before{
+	background-color: #4D23B3;
+	border-color: #4D23B3;
+}
+.pretty.p-default input:checked~.state label:after{
+	background-color: transparent !important;
+	background: transparent url(/img/icons/mark.svg) no-repeat 50% 50%;
+	background-size: cover;
+}
+
+
+.scrollbar-inner>.scroll-element.scroll-y{
+	width: 5px;
+}
+.scrollbar-inner>.scroll-element .scroll-element_track{
+	background-color: transparent;
+}
+
+
+.pretty.p-default label > span{
+	    position: relative;
+    top: -0.1em;
+}
+
+
+.nice-select:after{
+	width: 6px;
+	height: 6px;
+	border-bottom: 1px solid #1E2638;
+    border-right: 1px solid #1E2638;
+}
+.nice-select:active, .nice-select.open, .nice-select:focus{
+	border-color: #ebebeb;
+}
+.nice-select .list{
+	border: 1px solid #EAEAEA;
+	border-top-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top: 0;
+	margin-top: 0px;
+	margin-left: -1px;
+	margin-right: -1px;
+	box-shadow: none;
+	background-color: #FAFAFA;
+}
+.nice-select.open{
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+.nice-select .option:hover, .nice-select .option.focus, .nice-select .option.selected.focus{
+	background-color: #EAEAEA;
+	font-weight: inherit;
+}
+
+.nice-select.form--control-shadow:hover{
+	border: 1px solid transparent;
+}
+.nice-select.e-box--shadow:hover{
+	border-top: 1px solid #E6E9EE;
+}
+.nice-select.form--control-shadow .list{
+	box-shadow: 0px 0px 1px rgba(30, 38, 56, 0.5), 0px 1px 1px rgba(30, 38, 56, 0.25);
+	border: 0;
+}
+
+input.form--control-gray:hover,
+input.form--control-gray:focus,
+textarea.form--control-gray:hover,
+textarea.form--control-gray:hover{
+	border: 1px solid #4D23B3
+}
+
+

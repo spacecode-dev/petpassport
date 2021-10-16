@@ -1,0 +1,35 @@
+[2020-06-17 13:21:11] local.INFO: Broadcasting [like.updated] on channels [wall.profile.1] with payload:
+{
+    "object_id": 14,
+    "object_type": "post",
+    "count": 1,
+    "socket": null
+}  
+[2020-06-17 13:21:20] local.INFO: Broadcasting [like.updated] on channels [wall.profile.1] with payload:
+{
+    "object_id": 14,
+    "object_type": "post",
+    "count": 0,
+    "socket": null
+}  
+[2020-06-17 13:21:21] local.INFO: Broadcasting [like.updated] on channels [wall.profile.1] with payload:
+{
+    "object_id": 14,
+    "object_type": "post",
+    "count": 1,
+    "socket": null
+}  
+[2020-06-17 14:18:42] local.INFO: Broadcasting [like.updated] on channels [wall.profile.1] with payload:
+{
+    "object_id": 14,
+    "object_type": "post",
+    "count": 0,
+    "socket": null
+}  
+[2020-06-17 14:18:42] local.INFO: Broadcasting [like.updated] on channels [wall.profile.1] with payload:
+{
+    "object_id": 14,
+    "object_type": "post",
+    "count": 1,
+    "socket": null
+}  

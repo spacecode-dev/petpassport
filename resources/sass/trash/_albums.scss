@@ -1,0 +1,230 @@
+.albums {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -.55em;
+
+    & > * {
+        width: calc(20% - 1.1em);
+        margin: .55em;
+
+        @media (max-width: 1024px) {
+            width: calc(25% - 1.1em);
+        }
+
+        @media (max-width: 720px) {
+            width: calc(33.333333% - 1.1em);
+        }
+
+        @media (max-width: 480px) {
+            width: calc(50% - 1.1em);
+        }
+
+        @media (max-width: 320px) {
+            width: auto;
+        }
+
+        .album-photo,
+        .album-video {
+            display: block;
+            position: relative;
+            overflow: hidden;
+            padding-top: 100%;
+            margin-bottom: 0.86em;
+
+            @media (max-width: 320px) {
+                width: auto;
+                padding-top: 0;
+            }
+
+            img {
+                position: absolute;
+                top: -100%;
+                bottom: -100%;
+                right: -100%;
+                left: -100%;
+                /*height: 100%;*/
+                margin: auto;
+
+                &.thumb-landscape {
+                    height: 100%
+                }
+
+                &.thumb-portrait {
+                    width: 100%;
+                }
+
+                @media (max-width: 320px) {
+                    width: 100%;
+                    height: auto;
+                    position: static;
+                }
+            }
+
+            .album-empty {
+                background: #d4d6db;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+
+                i {
+                    font-size: 3em;
+                    margin-bottom: .2em;
+
+                    @media (max-width: 800px) {
+                        font-size: 2em;
+                    }
+                }
+            }
+
+            .album-delete,
+            .album-edit {
+                display: block;
+                position: absolute;
+                right: 0;
+                top: 0;
+                width: 1.5em;
+                height: 1.5em;
+                line-height: 1.5em;
+                text-align: center;
+                color: #FFF;
+                background: rgba(0, 0, 0, .5);
+                opacity: 0;
+                font-size: 1em;
+                padding: 0;
+                cursor: pointer;
+                transition: all .15s ease-in;
+
+                i {
+                    opacity: .8;
+                }
+
+                &:hover {
+                    i {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            .album-edit {
+                right: 1.5em;
+            }
+
+            &:hover {
+                .album-delete,
+                .album-edit {
+                    opacity: 1;
+                }
+            }
+        }
+
+        .album-video {
+            position: relative;
+            padding-top: 0;
+            padding-bottom: 56.25%; /* 16:9 */
+
+            .thumbnail {
+                position: absolute;
+                top: 0;
+                left: 0;
+                bottom: 0;
+                right: 0;
+                background-color: #000;
+                background-size: cover;
+                background-position: center;
+            }
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .grid--album {
+        display: block;
+
+        .al-group {
+            margin-bottom: 1.1em;
+        }
+    }
+}
+
+.al-group--photo {
+    position: relative;
+    padding-bottom: 66.66666666666667%;
+
+    img {
+        position: absolute;
+        top: -100%;
+        bottom: -100%;
+        right: -100%;
+        left: -100%;
+        /*height: 100%;*/
+        margin: auto;
+    }
+
+    .album-empty {
+        background: #d4d6db;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+
+        i {
+            font-size: 3em;
+            margin-bottom: .2em;
+
+            @media (max-width: 800px) {
+                font-size: 2em;
+            }
+        }
+    }
+
+    .album-delete,
+    .album-edit {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 1.5em;
+        height: 1.5em;
+        line-height: 1.5em;
+        text-align: center;
+        color: #FFF;
+        background: rgba(0, 0, 0, .5);
+        opacity: 0;
+        font-size: 1em;
+        padding: 0;
+        cursor: pointer;
+        transition: all .15s ease-in;
+
+        i {
+            opacity: .8;
+        }
+
+        &:hover {
+            i {
+                opacity: 1;
+            }
+        }
+    }
+
+    .album-edit {
+        right: 1.5em;
+    }
+
+    &:hover {
+        .album-delete,
+        .album-edit {
+            opacity: 1;
+        }
+    }
+}

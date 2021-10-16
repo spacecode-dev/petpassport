@@ -1,0 +1,30 @@
+.user-list-selector {
+    & > * {
+        position: relative;
+        cursor: pointer;
+        padding: 10px 1.2em;
+
+        &:hover {
+            color: var(--c-violet);
+        }
+
+        &.selected {
+            box-shadow: inset 3px 0 0 0 var(--c-violet);
+            color: var(--c-violet);
+        }
+
+        & + *::before {
+            content: '';
+            display: block;
+            border-top: 1px solid #DDD;
+            position: absolute;
+            left: 1.2em;
+            right: 1.2em;
+            top: 0;
+        }
+    }
+}
+
+.e-box .user-list-selector {
+    margin: 0 -1.2em;
+}

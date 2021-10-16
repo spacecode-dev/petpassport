@@ -1,0 +1,420 @@
+.grid {
+    display: flex !important;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-wrap: wrap;
+}
+
+.grid > * {
+    flex-basis: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.grid--gap {
+    grid-column-gap: 1.00em;
+    grid-row-gap: 1.00em;
+}
+
+.grid--three-only {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1.00em;
+    grid-row-gap: 1.00em;
+
+    flex-basis: calc(33.3% - 20px);
+    width: calc(33.3% - 20px);
+}
+
+.grid--album {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 2.80em;
+}
+
+.grid--album-photos {
+    grid-template-columns: repeat( auto-fit, minmax(129px, 1fr) );
+    grid-column-gap: 1.10em;
+    grid-row-gap: 1.10em;
+}
+
+.grid--num {
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+}
+
+.grid--articles {
+    /*grid-template-columns: repeat( auto-fit, minmax(340px, 1fr) )*/
+}
+
+.grid--three > * {
+    flex-basis: calc(33.3% - 20px);
+}
+
+.grid--four > * {
+    flex-basis: calc(25% - 20px);
+}
+
+.grid--five > * {
+    flex-basis: calc(20% - 20px);
+}
+
+@media (max-width: 1199px) {
+    .grid--three > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--four > * {
+        flex-basis: calc(33.3% - 20px);
+    }
+    .grid--five > * {
+        flex-basis: calc(25% - 20px);
+    }
+}
+
+@media (max-width: 991px) {
+    .grid--four > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--five > * {
+        flex-basis: calc(33.3% - 20px);
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .grid--num {
+        grid-template-columns: 1fr 1fr;
+    }
+    .grid--articles {
+        grid-template-columns: 1fr;
+    }
+    .grid--three {
+        grid-template-columns: 1fr;
+
+        flex-basis: 100%;
+    }
+    .grid--four > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--five > * {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+@media (max-width: 380px) {
+    .grid--four > * {
+        flex-basis: calc(100% - 20px);
+    }
+    .grid--five > * {
+        flex-basis: calc(100% - 20px);
+    }
+}
+
+
+/** Для старперов  **/
+
+/*.grid,*/
+.grid--three-only,
+.e-field,
+.e-coincidence,
+.e-card-shop--subject,
+.e-field--cards {
+    display: flex !important;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-wrap: wrap;
+}
+
+/*.grid > *,*/
+.e-field--cards > * {
+    flex-basis: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+/*
+.grid--three-only > *{
+    flex-basis: calc(33.3% - 20px);
+    width: calc(33.3% - 20px);
+}
+*/
+
+.e-coincidence > * {
+    flex-basis: calc(33.3% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.grid--articles {
+    display: flex !important;
+    margin-left: -10px;
+    margin-right: -10px;
+    flex-wrap: wrap;
+}
+
+.grid--articles > * {
+    flex-basis: calc(50% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*
+.grid--three > *{
+    flex-basis: calc(33.3% - 20px);
+}
+.grid--four > *{
+    flex-basis: calc(25% - 20px);
+}
+.grid--five > *{
+    flex-basis: calc(20% - 20px);
+}
+*/
+.grid--album-photos > * {
+    flex-basis: calc(16.66% - 20px);
+}
+
+.grid--album > * {
+    flex-basis: calc(33.3% - 20px);
+}
+
+.grid--num > * {
+    flex-basis: calc(25% - 20px);
+}
+
+.e-field > * {
+    flex-basis: calc(100% - 20px);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.e-field > * {
+    flex-basis: calc(35% - 20px);
+}
+
+.e-field > *:first-child {
+    flex-basis: calc(30% - 20px);
+}
+
+.e-field--wide > *:last-child {
+    flex-basis: calc(70% - 20px);
+}
+
+.e-field--three > * {
+    flex-basis: calc(33.3% - 20px);
+}
+
+.e-field--date {
+    flex-wrap: nowrap;
+}
+
+.e-field--date > * {
+    margin: 0;
+    flex-basis: 33.3%;
+}
+
+.e-field--date > *:nth-child(4) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.e-jaw--wrap > * {
+    flex-basis: calc(50% - 20px);
+}
+
+.e-field--money {
+    align-items: flex-start !important;
+    flex-wrap: nowrap;
+}
+
+.e-field--money > * {
+    margin: 0;
+    flex-basis: calc(33.3% - 10px) !important;
+    margin-bottom: 15px;
+}
+
+.e-field--money > *:nth-child(2) {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.e-field--files > * {
+    margin: 0;
+    margin-bottom: 15px;
+    flex-basis: 100%;
+}
+
+.e-field--cards > * {
+    flex-basis: calc(50% - 20px);
+}
+
+.e-field--upload-photos > * {
+    flex-basis: calc(25% - 20px);
+}
+
+.e-card-shop--subject {
+    margin-left: -2px;
+    margin-right: -2px;
+}
+
+.e-card-shop--subject > * {
+    flex-basis: calc(40% - 4px);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.e-card-shop--subject > *:last-child {
+    flex-basis: calc(20% - 4px);
+}
+
+.e-card-shop--subject .btn {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+.sr-prefab--drop .e-coincidence > * {
+    flex-basis: calc(100% - 10px);
+}
+
+@media (max-width: 1600px) {
+    .e-field--upload-photos > * {
+        flex-basis: calc(33.3% - 20px);
+    }
+}
+
+@media (max-width: 1199px) {
+    .grid--articles > * {
+        flex-basis: 100%;
+    }
+    /*
+    .grid--three > *{
+        flex-basis: calc(50% - 20px);
+    }
+    */
+    .grid--album-photos > * {
+        flex-basis: calc(25% - 20px);
+    }
+    .e-coincidence > * {
+        flex-basis: calc(50% - 20px);
+    }
+    /*
+    .grid--four > *{
+        flex-basis: calc(33.3% - 20px);
+    }
+    .grid--five > *{
+        flex-basis: calc(25% - 20px);
+    }
+    */
+    .e-field--upload-photos > * {
+        flex-basis: calc(50% - 20px);
+    }
+}
+
+/*
+@media (max-width: 991px){
+    .grid--four > *{
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--five > *{
+        flex-basis: calc(33.3% - 20px);
+    }
+}
+*/
+@media (max-width: 767px) {
+    .e-field > * {
+        flex-basis: calc(60% - 20px);
+    }
+    .e-field > *:first-child {
+        flex-basis: calc(40% - 20px);
+    }
+    .e-field--wide > *:last-child {
+        flex-basis: calc(60% - 20px);
+    }
+    .e-field--password > * {
+        flex-basis: calc(100% - 20px);
+    }
+    .e-field--password > *:first-child {
+        display: none;
+    }
+    .e-field--password {
+        margin-left: 40%;
+    }
+    .e-field--password > *:last-child {
+        margin-top: 15px;
+    }
+}
+
+@media (max-width: 575px) {
+    .grid--album-photos > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--album > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .e-coincidence > * {
+        flex-basis: calc(100% - 20px);
+    }
+    .e-field > * {
+        flex-basis: calc(100% - 20px);
+    }
+    .e-field > *:first-child {
+        margin-bottom: 8px;
+    }
+    .e-field--wide > *:last-child {
+        flex-basis: calc(100% - 20px);
+    }
+    .e-field--password {
+        margin-left: -10px !important;
+        padding-left: 0 !important;
+        margin-top: 0 !important;
+    }
+    .e-field--password > * {
+        flex-basis: calc(100% - 20px);
+    }
+    /*
+    .grid--four > *{
+        flex-basis: calc(50% - 20px);
+    }
+    .grid--five > *{
+        flex-basis: calc(50% - 20px);
+    }
+    */
+    .e-jaw--wrap > * {
+        flex-basis: calc(100% - 20px);
+    }
+    .e-field--money {
+        flex-wrap: wrap;
+    }
+    .e-field--money > * {
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+        flex-basis: 100% !important;
+    }
+    .e-field--cards {
+        margin-right: 0;
+        max-width: none;
+    }
+    .e-field--cards > * {
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+    .grid--num > * {
+        flex-basis: calc(50% - 20px);
+    }
+    .mk-category--box {
+        display: block !important;
+        margin: 0 !important;
+        margin-bottom: 15px !important;
+    }
+    .mk-category--box > * {
+        margin: 0 !important;
+    }
+}
+
+/*
+@media (max-width: 380px){
+    .grid--four > *{
+        flex-basis: calc(100% - 20px);
+    }
+    .grid--five > *{
+        flex-basis: calc(100% - 20px);
+    }
+}
+*/

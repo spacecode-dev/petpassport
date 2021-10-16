@@ -1,0 +1,57 @@
+.c-white,
+.color--white {
+    color: var(--c-white);
+}
+
+.c-black,
+.color--black {
+    color: var(--c-black);
+}
+
+.c-violet,
+.color--daisy-bush {
+    color: var(--c-violet);
+}
+
+.c-red,
+.color--persimmon {
+    color: var(--c-red);
+}
+
+.c-pink {
+    color: var(--c-pink);
+}
+
+.c-green,
+.color--sahara {
+    color: var(--c-green);
+}
+
+.c-gray,
+.color--regent-gray {
+    color: var(--c-gray);
+}
+
+.bg-white {
+    background-color: var(--c-white);
+}
+
+.bg-black {
+    background-color: var(--c-black);
+}
+
+.bg-violet {
+    background-color: var(--c-violet);
+}
+
+.bg-red {
+    background-color: var(--c-red);
+}
+
+.bg-green {
+    background-color: var(--c-green);
+}
+
+.bg-gray {
+    background-color: var(--c-gray);
+}
